@@ -7,10 +7,6 @@ ${LOGIN URL}      https://www.chotot.com/
 ${BROWSER}        chrome
 
 *** Keywords ***
-Open my browser
-    Open Browser    ${LOGIN URL}    ${BROWSER}
-    Maximize Browser Window
-
 Close browsers
     Close All Browsers
 
