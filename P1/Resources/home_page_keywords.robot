@@ -26,6 +26,7 @@ Select Login Menu Item On Menu More
 
 Should Be Login Succeess
     Click On Menu More
-    Wait Until Element Is Visible    ${user_rewards_point}    30 seconds
-    Page Should Contain Element    ${user_rewards_point}    30 seconds
+    Wait Until Element Is Visible    ${user_logout}    5 seconds
+    Page Should Contain Element    ${user_logout}    1 seconds
+    Capture Page Screenshot
     Click On Menu More
